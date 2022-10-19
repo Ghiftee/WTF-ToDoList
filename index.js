@@ -17,11 +17,12 @@ function showAllTodo(TodoItem){
         </div>
         </div>
     `
-    const newListContainer = document.getElementById('todo-ul')
-    newListContainer.appendChild('newList');
+    const newListContainer = document.getElementById('todo-ul');
+    newListContainer.appendChild(newList);
 
 }
 
 
-const submitForm = document.getElementById('todoFormSubmit')
-const submitTodoForm = submitForm.addEventListener('submit', onSubmitForm)
+const submitForm = document.getElementById('todoFormSubmit');
+const submitTodoForm = submitForm.addEventListener('submit', onSubmitForm);
+
