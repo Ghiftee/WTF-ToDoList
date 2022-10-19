@@ -2,6 +2,7 @@ function onSubmitForm(e){
     e.preventDefault()
     const formInput = document.getElementById('todo-input')
     const formInputValue = formInput.value
+    formInput.value = '';
     showAllTodo(formInputValue)
 }
 
