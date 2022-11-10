@@ -33,7 +33,6 @@ function addListenerToEdit(){
 function deleteTodo(e){
     const clickedDelButton = e.target;
     const entireLiPerTodo = clickedDelButton.parentNode.parentNode.parentNode
-    console.log(entireLiPerTodo);
     entireLiPerTodo.remove();
 }
 
